@@ -123,6 +123,37 @@
       </ul>
       <a class="about-company__link">Подробнее</a>
     </section>
+    <section class="request">
+      <h2 class="request__title">Оставьте заявку</h2>
+      <div class="request__adviser adviser">
+        <img class="adviser__photo" src="#">
+        <p class="adviser__author-name">Юлия Дижа</p>
+        <p class="adviser__author-description">Поможет запустить ваш проект</p>
+      </div>
+      <form class="request__form form" action="#" method="post" autocomplete="off">
+        <label class="form__label-name form__label-name--required" for="form-name">Ваше имя</label>
+        <input class="form__name" id="form-name" type="text" required>
+        <label class="visually-hidden" for="form-phone">Телефон или мессенджер</label>
+        <input class="form__phone" id="form-phone" type="tel" placeholder="Телефон или мессенджеры *" required>
+        <label class="visually-hidden" for="form-description">Краткое описание задачи</label>
+        <textarea class="form__description" id="form-description" placeholder="Краткое описание задачи *" required>
+        <button type="submit">Отправить</button>
+      </form>
+      <div class="request__download download">
+        <p class="download__description">Скачать брифинги на:</p>
+        <ul class="download__list">
+          <li class="download__item">
+            <a class="download__link" download>разработку логотипа</a>
+          </li>
+          <li class="download__item">
+            <a class="download__link" download>разработку сайта</a>
+          </li>
+          <li class="download__item">
+            <a class="download__link" download>разработку лендинга</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 </body>
 </html>
