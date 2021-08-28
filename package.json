@@ -1,7 +1,6 @@
 {
-  "name": "pink-22",
+  "name": "drozhi",
   "private": true,
-  "description": "Личный проект «Пинк» от HTML Academy",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "autoprefixer": "10.2.5",
